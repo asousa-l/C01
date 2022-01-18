@@ -32,14 +32,14 @@ void	ft_sort_int_tab(int *tab, int size)
 	{
 		swapped = false;
 		ind = 0;
-		while (index < size)
+		while (ind < size)
 		{
 			if (tab[ind] > tab[ind + 1])
 			{
 				ft_swap(&tab[ind], &tab[ind + 1]);
 				swapped = true;
 			}
-			index++;
+			ind++;
 		}
 		if (!swapped)
 		{

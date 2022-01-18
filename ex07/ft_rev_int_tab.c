@@ -22,7 +22,7 @@ void	ft_rev_int_tab(int *tab, int size)
 	{
 		a = tab[ind];
 		tab[ind] = tab[size - 1 - ind];
-		tab[size -1 - index] = a;
+		tab[size -1 - ind] = a;
 		ind++;
 	}
 }
